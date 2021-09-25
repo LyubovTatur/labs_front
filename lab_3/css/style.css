@@ -1,0 +1,117 @@
+body{
+    background: url("../images/pizza_bg_1.jpg");
+    margin: 0px;
+}
+.header-container {
+background: rgba(255, 244, 122,0.99);
+    height: 70px;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr 16fr 5fr;
+
+}
+.brand-logo {
+    width: 60px;
+    margin-left: 20px;
+    margin-block: auto;
+    height: 60px;
+}
+.title-class{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    margin-block: auto;
+    font-weight: bolder;
+    color: #ff9634;
+}
+.line{
+    background: #ff9634;
+    width: 8px;
+    margin-left: 20px;
+}
+.phones{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin-block: auto;
+    color: #e0680b;
+}
+.content {
+    margin-top: 30px;
+    background: white;
+    max-width: 800px;
+    margin-inline: auto;
+    text-align: center;
+
+}
+.content-text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    margin-bottom: 30px;
+    margin-block: auto;
+    padding-top: 10px;
+    color: #ff9634;
+
+}
+.pizzes {
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    margin-top: 40px;
+}
+.pizza{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+.pizza.p1{
+    background: url("../images/pizzes/1.jpeg") 50% 50%/100% 100% no-repeat;
+
+}
+.pizza.p2{
+    background: url("../images/pizzes/2.jpeg") 50% 50%/100% 100% no-repeat;
+
+}
+.pizza.p3{    background: url("../images/pizzes/3.jpeg") 50% 50%/100% 100% no-repeat;
+}
+.pizza.p4{    background: url("../images/pizzes/4.jpeg") 50% 50%/100% 100% no-repeat;
+}
+.pizza.p5{    background: url("../images/pizzes/5.jpeg") 50% 50%/100% 100% no-repeat;
+}
+.pizza.p6{    background: url("../images/pizzes/6.jpeg") 50% 50%/100% 100% no-repeat;
+}
+.pizza.p7{    background: url("../images/pizzes/7.jpeg") 50% 50%/100% 100% no-repeat;
+}
+.pizza.p8{    background: url("../images/pizzes/8.jpeg") 50% 50%/100% 100% no-repeat;
+}
+.pizza.p9{    background: url("../images/pizzes/1.jpeg") 50% 50%/100% 100% no-repeat;
+}
+.navigation-menu{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    margin-top: 30px;
+    height: 100px;
+    align-items: center;
+    background: rgba(255,255,255,0.2);
+}
+.menu_part
+{
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+    font-size: 20px;
+
+
+}
+.menu_part:hover {
+    color: brown;
+    font-weight: bolder;
+    transition: 0.4s;
+
+}
+.pizza_logo_pic{
+    background: url("../images/pizza_simple.png") 50% 50%/100% 100% no-repeat;
+
+}
+.sausage_logo_pic{
+    background: url("../images/sausage.png")50% 50%/100% 100% no-repeat;
+}
+
+.flour_logo_pic{
+    background: url("../images/flour.png")50% 50%/100% 100% no-repeat;
+}
