@@ -1,0 +1,11 @@
+book{
+    display: block;
+    margin-top: 12pt;
+    font-size: 10pt;
+}
+title{
+  font-style: italic;
+}
+author{
+  font-weight:  bold;
+}
