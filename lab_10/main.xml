@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!-- File Name: main.xml-->
+<!--Структура «Радио». Длина волны, Название, массив диджеи, время
+работы.-->
+<?xml-stylesheet type="text/css" href="style.css"?>
+<radio>
+    <chanel>
+        <wave-lenth>40.2</wave-lenth>
+        <title>РадиоМИР</title>
+        <dj>Диджей оушен</dj>
+        <working-time>20 часов</working-time>
+    </chanel>
+    <chanel>
+        <wave-lenth>50.34</wave-lenth>
+        <title>Радио дождь</title>
+        <dj>природа</dj>
+        <working-time>24 часа</working-time>
+    </chanel>
+    <chanel>
+        <wave-lenth>64.4</wave-lenth>
+        <title>Радио новости</title>
+        <dj>голос за кадром</dj>
+        <working-time>3 часа</working-time>
+    </chanel>
+    <chanel>
+        <wave-lenth>103.1</wave-lenth>
+        <title>МТВ радио</title>
+        <dj>Зарубежные исполнители</dj>
+        <working-time>24 часа</working-time>
+    </chanel>
+
+</radio>

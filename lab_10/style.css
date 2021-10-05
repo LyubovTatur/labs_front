@@ -1,0 +1,19 @@
+
+chanel{
+    display: block;
+    margin-top: 12pt;
+    font-size: 10pt;
+}
+wave-lenth, working-time{
+    display: block;
+    font-style: italic;
+}
+title{
+    display: block;
+    font-weight:  bold;
+}
+dj{
+    display: block;
+    color: grey;
+}
+

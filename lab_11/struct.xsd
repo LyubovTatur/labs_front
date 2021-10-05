@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/css"; href="style.css"?>;
+<?xml-stylesheet type="text/css"; href="style.css"?>
 
--<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
--<xs:element name="BookKatalog">
--<xs:complexType>
--<xs:sequence>
--<xs:element name="book" maxOccurs="unbounded">
--<xs:complexType>
--<xs:sequence>
-<xs:element name="name" type="xs:string"/>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="BookKatalog">
+<xs:complexType>
+<xs:sequence>
+<xs:element name="book" maxOccurs="unbounded">
+<xs:complexType>
+<xs:sequence>
+
+    <xs:element name="name" type="xs:string"/>
 <xs:element name="author" type="xs:string"/>
 <xs:element name="ISBN_number" type="xs:positiveInteger"/>
 <xs:element name="cost" type="xs:positiveInteger"/>
@@ -21,7 +22,6 @@
 </xs:sequence>
 </xs:complexType>
 </xs:element>
-<xs:attribute name="orderid" type="xs:string" use="required"/>
 </xs:sequence>
 </xs:complexType>
 </xs:element>
