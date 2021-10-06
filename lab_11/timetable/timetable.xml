@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<timetable_catalog xsi:noNamespaceSchemaLocation="timetable_schema.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="$LOCAL_SCHEMA$">
+    <timetable>
+        <group>1</group>
+        <week_day>
+            <week_day_name>понидельник</week_day_name>
+            <subjects>
+                <title>матеша</title>
+                <type_of_lesson>lecture</type_of_lesson>
+                <classroom_number>445</classroom_number>
+                <teacher>Мистер математик</teacher>
+            </subjects>
+        </week_day>
+        <parity>числитель</parity>
+    </timetable>
+    <timetable>
+        <group>2</group>
+        <week_day>
+            <week_day_name>понидельник</week_day_name>
+            <subjects>
+                <title>русский язык</title>
+                <type_of_lesson>practice</type_of_lesson>
+                <classroom_number>666</classroom_number>
+                <teacher>Миссис РУсица</teacher>
+            </subjects>
+        </week_day>
+        <parity>числитель</parity>
+    </timetable>
+</timetable_catalog>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+
+<!--5. Расписание занятий. Расписание занятий у каждой группы свое. Для-->
+<!--каждого дня недели расписание свое. При этом некоторые дни недели могут-->
+<!--быть свободны. Кроме этого расписание на четной и нечетной неделе может-->
+<!--отличаться. В расписании указывается название предмета, тип (лекция,-->
+<!--практика, лабораторные работы), аудитория (корпус и номер), в которой-->
+<!--будет проходить занятие, ссылка на информацию о преподавателе, которая-->
+<!--хранится в отдельном файле. В информацию о преподавателе входит ФИО,-->
+<!--должность, кафедра, университет, контактная информация (телефон рабочий,-->
+<!--домашний, E-mail). Необходимо учесть, что рабочий телефон может быть не-->
+<!--один, домашнего телефона может не быть или быть несколько, e-mail может-->
+<!--не быть или быть несколько.-->
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="teachers">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="teacher">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="FIO" type="xs:string"/>
+                            <xs:element name="post" type="xs:string"/>
+                            <xs:element name="cathedra" type="xs:string"/>
+                            <xs:element name="university" type="xs:string"/>
+                            <xs:element name="contacts">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="phone" type="xs:string"/>
+                                        <xs:element name="home_phone" type="xs:string"/>
+                                        <xs:element name="email_address" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
