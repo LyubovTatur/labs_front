@@ -1,5 +1,5 @@
-<?xml version="1.0"?>
-<?xml-stylesheet type="text/css" href="style.css"?>
-<teachers xsi:noNamespaceSchemaLocation="teachers_schema.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="$LOCAL_SCHEMA$">
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/css" href="style.css" ?>
+<teachers  xmlns="$LOCAL_SCHEMA$" xsi:noNamespaceSchemaLocation="teachers_schema.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
 </teachers>

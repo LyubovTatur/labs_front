@@ -1,0 +1,19 @@
+
+
+timetable{
+    display: block;
+    font-size: 20pt;
+    margin: 15px;
+}
+group{
+    display: block;
+  font-style: italic;
+}
+title{
+    display: block;
+
+    font-weight:  bold;
+}
+teacher{
+    display: block;
+}

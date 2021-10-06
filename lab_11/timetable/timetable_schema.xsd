@@ -46,7 +46,7 @@
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
-                            <xs:element name="parity">
+                            <xs:element name="parity" type="xs:string">
                             </xs:element>
                         </xs:sequence>
                     </xs:complexType>

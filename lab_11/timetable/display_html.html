@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<xml src="timetable.xml" id="myxml"></xml>
+<table id="td" datasrc="#myxml">
+    <thead>
+    <th>group</th>
+    <th>день недели</th>
+    <th>предмет</th>
+    <th>тип</th>
+    <th>каб</th>
+    <th>учитель</th>
+    <th>числитель\знаменатель</th>
+    </thead>
+    <tr>
+        <td><span datafld="group"/></td>
+        <td><span datafld="week_day_name"/></td>
+        <td><span datafld="title"/></td>
+        <td><span datafld="type_of_lesson"/></td>
+        <td><span datafld="classroom_number"/></td>
+        <td><span datafld="teacher"/></td>
+        <td><span datafld="parity"/></td>
+    </tr>
+</table>
+</body>
+</html>
